@@ -36,7 +36,7 @@ for i in out_data2:
 with open('清理後盤點資料.csv', 'w', newline='',encoding='utf-8') as csvfile:
     # 建立 CSV 檔寫入器
     writer = csv.writer(csvfile)
-    writer.writerow(['trl_ID','盤點日期'])
+    writer.writerow(['TRL_ID','盤點日期'])
     for i in list(out_dict.keys()):
         # 寫入一列資料
         writer.writerow([i])
